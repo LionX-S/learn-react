@@ -1,0 +1,19 @@
+body{
+  margin: 0;
+  padding: 0;
+}
+
+.NavBar{
+  display: flex;
+  height: 44px;
+  line-height: 44px;
+  text-align: center;
+}
+
+.navbar-left,.navbar-right{
+  height: 44px;
+  width: 60px;
+}
+.navbar-center{
+  flex: 1;
+}
