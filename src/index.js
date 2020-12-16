@@ -7,8 +7,10 @@ import ReactDOM from 'react-dom';
 // import App from './3.组件的数据传递/5.子传父通信-函数传递'
 // import App from './4.组件通信案例/App'
 // import App from './5.react实现slot/App'
-import App from './6.跨组件通信/1.跨组件通信'
-
+// import App from './6.跨组件通信/1.跨组件通信'
+// import App from './7.setState的使用/2.setState是异步更新'
+// import App from './8.react性能优化/1.列表中keys的作用';
+import App from './8.react性能优化/2.组件嵌套的render调用优化';
 
 ReactDOM.render(
     <App />,
