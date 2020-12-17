@@ -12,8 +12,9 @@ import ReactDOM from 'react-dom';
 // import App from './8.react性能优化/1.列表中keys的作用';
 // import App from './8.react性能优化/2.组件嵌套的render调用优化';
 // import App from './7.setState的使用/5.setState不可变的力量';
-import App from './3.组件的数据传递/6.全局事件传递';
-
+// import App from './3.组件的数据传递/6.全局事件传递';
+// import App from './9.受控和非受控组件/1.refs的使用';
+import App from './9.受控和非受控组件/3.受控组件多输入'
 ReactDOM.render(
     <App />,
   document.getElementById('root')
