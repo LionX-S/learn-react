@@ -54,7 +54,7 @@ export default class App extends Component {
     )
   }
   // 1.可以通过shouldComponentUpdate控制，调不调用render,就是只有在view中依赖的state数据才进行render重新渲染，这个方法返回true才会调用
-  // render函数，false则不会
+  // render函数，false则不会。
   // 2.第二种方法：类组件不要继承Component，而是继承PureComponent，PureComponent会对props/state进行浅层比较，如果有变化才会返回true，
   // 调用shouldComponentUpdate，调用render。但解决不了函数式组件
   // 3.memo 也是决定要不要重新渲染。memo是一个高阶组件，将不需要渲染的函数式组件传递进去
