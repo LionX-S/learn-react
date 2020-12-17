@@ -10,7 +10,9 @@ import ReactDOM from 'react-dom';
 // import App from './6.跨组件通信/1.跨组件通信'
 // import App from './7.setState的使用/2.setState是异步更新'
 // import App from './8.react性能优化/1.列表中keys的作用';
-import App from './8.react性能优化/2.组件嵌套的render调用优化';
+// import App from './8.react性能优化/2.组件嵌套的render调用优化';
+// import App from './7.setState的使用/5.setState不可变的力量';
+import App from './3.组件的数据传递/6.全局事件传递';
 
 ReactDOM.render(
     <App />,
