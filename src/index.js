@@ -14,7 +14,12 @@ import ReactDOM from 'react-dom';
 // import App from './7.setState的使用/5.setState不可变的力量';
 // import App from './3.组件的数据传递/6.全局事件传递';
 // import App from './9.受控和非受控组件/1.refs的使用';
-import App from './9.受控和非受控组件/3.受控组件多输入'
+// import App from './9.受控和非受控组件/3.受控组件多输入';
+// import App from './10.高阶组件的使用/1.高阶组件的定义方式';
+// import App from './10.高阶组件的使用/2.高阶组件应用-增强props';
+// import App from './10.高阶组件的使用/3.高阶组件应用-增强props';
+// import App from './10.高阶组件的使用/4.高阶组件应用-登录鉴权';
+import App from './10.高阶组件的使用/5.高阶组件应用-生命周期劫持';
 ReactDOM.render(
     <App />,
   document.getElementById('root')
