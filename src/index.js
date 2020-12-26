@@ -19,7 +19,12 @@ import ReactDOM from 'react-dom';
 // import App from './10.高阶组件的使用/2.高阶组件应用-增强props';
 // import App from './10.高阶组件的使用/3.高阶组件应用-增强props';
 // import App from './10.高阶组件的使用/4.高阶组件应用-登录鉴权';
-import App from './10.高阶组件的使用/5.高阶组件应用-生命周期劫持';
+// import App from './10.高阶组件的使用/5.高阶组件应用-生命周期劫持';
+// import App from './11.组件内容补充/3.fragments的使用';
+// import App from './12.react中的样式/1.内联样式';
+// import App from './12.react中的样式/2.css in js';
+// import App from './12.react中的样式/3.styled-components高级(特点)';
+import App from './12.react中的样式/4.styled中的继承与设置主题';
 ReactDOM.render(
     <App />,
   document.getElementById('root')
