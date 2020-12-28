@@ -24,8 +24,12 @@ import ReactDOM from 'react-dom';
 // import App from './12.react中的样式/1.内联样式';
 // import App from './12.react中的样式/2.css in js';
 // import App from './12.react中的样式/3.styled-components高级(特点)';
-import App from './12.react中的样式/4.styled中的继承与设置主题';
+// import App from './12.react中的样式/4.styled中的继承与设置主题';
+import App from './14.react过渡动画与纯函数的使用/1.CSSTransition';
+
+import 'antd/dist/antd.css';
+
 ReactDOM.render(
-    <App />,
+    <App/>,
   document.getElementById('root')
 );
