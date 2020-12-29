@@ -18,7 +18,15 @@ export default class App extends PureComponent {
     return (
       <div>
         <button onClick={e => {this.setState({isShow:!this.state.isShow})}}>显示/隐藏</button>
-        <CSSTransition in={this.state.isShow} classNames="card" timeout={300}>
+        <CSSTransition in={this.state.isShow} 
+                       classNames="card" 
+                       timeout={300}
+                       unmountOnExit={true}
+                       appear
+                       onEnter={el => console.log('开始进入')}
+                       onEntering={el => console.log('正在进入')}
+                       onEntered={el => console.log('进入完成')}
+                       onExit={el => console.log(el)}>
           <Card
             style={{ width: 300 }}
             cover={
