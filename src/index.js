@@ -27,7 +27,8 @@ import ReactDOM from 'react-dom';
 // import App from './12.react中的样式/4.styled中的继承与设置主题';
 // import App from './14.react过渡动画与纯函数的使用/1.CSSTransition';
 // import App from './14.react过渡动画与纯函数的使用/2.SwitchTransition';
-import App from './14.react过渡动画与纯函数的使用/3.TransitionGroup';
+// import App from './14.react过渡动画与纯函数的使用/3.TransitionGroup';
+import App from './15.redux/index';
 
 import 'antd/dist/antd.css';
 
