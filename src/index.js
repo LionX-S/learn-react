@@ -1,5 +1,7 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
+import {Provider} from 'react-redux';
+import store from './15.redux/3.组件的异步操作/store'; //路径不正确，根据真实来
 // import App from './1.组件的定义方式/1.组件的定义';
 // import App from './2.组件的生命周期/App'
 // import App from './3.组件的数据传递/2.父传子通信-类组件'
@@ -28,11 +30,14 @@ import ReactDOM from 'react-dom';
 // import App from './14.react过渡动画与纯函数的使用/1.CSSTransition';
 // import App from './14.react过渡动画与纯函数的使用/2.SwitchTransition';
 // import App from './14.react过渡动画与纯函数的使用/3.TransitionGroup';
-import App from './15.redux/index';
+// import App from './15.redux/index';
+import App from './15.redux/3.组件的异步操作/1.异步操作基本过程';
 
 import 'antd/dist/antd.css';
 
 ReactDOM.render(
-    <App/>,
+  <Provider store={store}>
+    <App/>
+  </Provider>,
   document.getElementById('root')
 );

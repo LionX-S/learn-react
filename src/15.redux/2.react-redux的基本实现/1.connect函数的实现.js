@@ -1,6 +1,7 @@
 import { PureComponent } from "react";
 
 // 依赖store
+// 可以通过context将store传递进来，这样这个就不依赖store了
 export function connect(mapStateToProps,mapDispatchToProps){
   return function enhanceHOC(WrappedComponent) {
     return class extends PureComponent{
