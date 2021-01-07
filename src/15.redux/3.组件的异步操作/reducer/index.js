@@ -6,7 +6,7 @@ const defaultState = {
 export default function dataReducer(state = defaultState, action) {
   switch (action.type) {
     case "BANNER":
-      console.log('...');
+      console.log(action.data);
       return { ...state, banner: action.data };
     case "RECOMMAND":
       return { ...state, command: action.data };
