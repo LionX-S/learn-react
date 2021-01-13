@@ -35,7 +35,8 @@ import store from './15.redux/3.组件的异步操作/store'; //路径不正确�
 // import App from './15.redux/3.组件的异步操作/2.redux-thunk的基本使用';
 // import App from './16.react-router/1.基本使用';
 // import App from './16.react-router/2.更多路由组件';
-import App from './16.react-router/3.手动跳转';
+// import App from './16.react-router/3.手动跳转';
+import App from './16.react-router/5.路由集中管理';
 
 import 'antd/dist/antd.css';
 import { BrowserRouter } from 'react-router-dom';
