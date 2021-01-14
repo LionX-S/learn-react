@@ -6,11 +6,11 @@ const routes = [
   {
     path:'/',
     exact: true,
-    components: Home
+    component: Home
   },
   {
     path: '/about',
-    components: About
+    component: About
   }
 ];
 
