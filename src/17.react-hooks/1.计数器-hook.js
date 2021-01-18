@@ -1,6 +1,7 @@
 import React, {useState} from 'react'
 
 export default function App() {
+  // 使用useState hook
   const [state,setState] = useState(0);
   return (
     <div>
