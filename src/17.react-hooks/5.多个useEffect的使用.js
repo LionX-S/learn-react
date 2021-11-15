@@ -7,10 +7,10 @@ export default function App() {
   });
   useEffect(() => {
     console.log('订阅事件');
-  });
+  },[]);
   useEffect(() => {
     console.log('网络请求');
-  });
+  },[]);
   return (
     <div>
       

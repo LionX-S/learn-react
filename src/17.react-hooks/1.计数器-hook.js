@@ -1,7 +1,7 @@
 import React, {useState} from 'react'
 
 export default function App() {
-  // 使用useState hook
+  // 使用useState hook，返回一个数组
   const [state,setState] = useState(0);
   return (
     <div>

@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+</head>
+<body>
+  <div id='app'></div>
+  <script crossorigin src='https://unpkg.com/react@16/umd/react.development.js'></script>
+  <script crossorigin src='https://unpkg.com/react-dom@16/umd/react-dom.development.js'></script>
+  <script src='https://unpkg.com/babel-standalone@6/babel.min.js'></script> 
+  <script type='text/babel'>
+    class App extends React.Component {
+      constructor() {
+        super();
+        this.state = {
+          message: "lion"
+        }
+        {/*统一绑定*/}
+        this.btnClick = this.btnClick.bind(this);
+      }
+      btnClick() {
+        console.log('按钮点击');
+        console.log(this.state.message)
+      }
+      // 2 箭头函数
+      increment = () => {
+        {/*箭头函数中永远不绑定this，当在其中使用this时，他会一层一层作用域的去向上查找*/}
+      }
+      render() {
+        return (
+          <div>
+            {/*1 显示绑定this*/}
+            <button onClick={this.btnClick.bind(this)}>按钮1</button>
+            <button onClick={this.btnClick}>按钮2</button>
+            <button onClick={this.increment}>按钮3</button>
+            {/*3 直接传入箭头函数，在箭头函数中执行函数，这种方式传参也方便*/}
+            <button onClick={() => {this.btnClick()}}>按钮4</button>
+          </div>
+        )
+      }
+    }
+    ReactDOM.render(<App/>, document.getElementById('app'));
+  </script>
+</body>
+</html>

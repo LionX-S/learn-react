@@ -31,6 +31,7 @@ import store from './15.redux/3.组件的异步操作/store'; //路径不正确�
 // import App from './14.react过渡动画与纯函数的使用/2.SwitchTransition';
 // import App from './14.react过渡动画与纯函数的使用/3.TransitionGroup';
 // import App from './15.redux/index';
+import App from './15.redux/1.redux的基本使用';
 // import App from './15.redux/3.组件的异步操作/1.异步操作基本过程';
 // import App from './15.redux/3.组件的异步操作/2.redux-thunk的基本使用';
 // import App from './16.react-router/1.基本使用';
@@ -41,7 +42,9 @@ import store from './15.redux/3.组件的异步操作/store'; //路径不正确�
 // import App from './17.react-hooks/1.计数器-hook';
 // import App from './17.react-hooks/2.多个状态和复杂状态的使用';
 // import App from './17.react-hooks/3.useEffect';
-import App from './17.react-hooks/6.useContext的使用';
+// import App from './17.react-hooks/6.useContext的使用';
+// import App from './17.react-hooks/7.useReducer的使用';
+
 import 'antd/dist/antd.css';
 import { BrowserRouter } from 'react-router-dom';
 

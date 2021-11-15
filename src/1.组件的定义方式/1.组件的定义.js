@@ -1,12 +1,12 @@
-import React, { Component } from 'react'
+import React, { Component } from "react";
 
 // 类组件
 export default class App extends Component {
-  constructor(){
+  constructor() {
     super();
     this.state = {
-      message: '你好，世界！'
-    }
+      message: "你好，世界！",
+    };
   }
   render() {
     return (
@@ -14,11 +14,11 @@ export default class App extends Component {
         Hello,world!
         <h2>{this.state.message}</h2>
       </div>
-    )
+    );
   }
 }
 
-// 函数式组件
+// 函数式组件 返回同样是JSX
 // export default function App(){
 //   return (
 //     <div>

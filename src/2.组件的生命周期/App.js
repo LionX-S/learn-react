@@ -47,8 +47,8 @@ export default class App extends Component {
     console.log('执行了componentDidMount方法');
   }
 
-  // prop,state 更新时调用
-  componentDidUpdate(){
+  // prop,state 更新时调用 有三个参数
+  componentDidUpdate(previProps,prevState,snapShot){
     console.log('执行组件的componentDidUpdate方法');
   }
 }

@@ -6,6 +6,7 @@ export default function App() {
   useEffect(() => {
     console.log('订阅消息');
     // 返回一个函数，则会在组件卸载时执行,
+    // 这个返回的函数类似于unmout卸载周期函数
     return () => {
       console.log('取消订阅');
     }
