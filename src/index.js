@@ -7,6 +7,7 @@ import store from './15.redux/3.组件的异步操作/store'; //路径不正确�
 // import App from './3.组件的数据传递/2.父传子通信-类组件'
 // import App from './3.组件的数据传递/4.父传子通信-属性验证'
 // import App from './3.组件的数据传递/5.子传父通信-函数传递'
+import App from './3.组件的数据传递/6.兄弟组件通信(全局事件)'
 // import App from './4.组件通信案例/App'
 // import App from './5.react实现slot/App'
 // import App from './6.跨组件通信/1.跨组件通信'
@@ -31,7 +32,7 @@ import store from './15.redux/3.组件的异步操作/store'; //路径不正确�
 // import App from './14.react过渡动画与纯函数的使用/2.SwitchTransition';
 // import App from './14.react过渡动画与纯函数的使用/3.TransitionGroup';
 // import App from './15.redux/index';
-import App from './15.redux/1.redux的基本使用';
+// import App from './15.redux/1.redux的基本使用';
 // import App from './15.redux/3.组件的异步操作/1.异步操作基本过程';
 // import App from './15.redux/3.组件的异步操作/2.redux-thunk的基本使用';
 // import App from './16.react-router/1.基本使用';

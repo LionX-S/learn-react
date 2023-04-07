@@ -2,7 +2,7 @@ import React,{useState,useEffect} from 'react';
 
 export default function App() {
   const [counter, setCounter] = useState(0);
-  // didmount与update都会调用这个
+  // didMount与update都会调用这个
   useEffect(() => {
     document.title = counter
   })

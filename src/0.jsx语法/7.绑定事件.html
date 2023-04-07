@@ -28,6 +28,7 @@
       // 2 箭头函数
       increment = () => {
         {/*箭头函数中永远不绑定this，当在其中使用this时，他会一层一层作用域的去向上查找*/}
+        console.log('increment');
       }
       render() {
         return (

@@ -25,14 +25,14 @@ export default class App extends Component {
     return (
       <div>
         <h2>当前计数：{this.state.counter}</h2>
-        <button onClick = {e => this.incerment()}>+</button>
+        <button onClick = {e => this.increment()}>+</button>
         <button onClick = {e => this.delete()}>删除Cpn</button>
         {this.state.isShow && <Cpn/>}
       </div>
     )
   }
 
-  incerment(){
+  increment(){
     this.setState({
       counter: this.state.counter + 1
     })
@@ -48,7 +48,7 @@ export default class App extends Component {
   }
 
   // prop,state 更新时调用 有三个参数
-  componentDidUpdate(previProps,prevState,snapShot){
+  componentDidUpdate(prevProps,prevState,snapShot){
     console.log('执行组件的componentDidUpdate方法');
   }
 }

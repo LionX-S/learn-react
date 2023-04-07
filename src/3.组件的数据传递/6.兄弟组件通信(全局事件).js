@@ -43,11 +43,11 @@ class Profile extends PureComponent{
     return (
       <div>
         Propfile
-        <button onClick={() => this.emmitEvent()}>点击</button>
+        <button onClick={() => this.emitEvent()}>点击</button>
       </div>
     )
   }
-  emmitEvent(){
+  emitEvent(){
     // 第二步：发出事件，第一个参数为事件名称，后面可以跟参数
     eventBus.emit('sendHello','Hello Home',123);
   }
